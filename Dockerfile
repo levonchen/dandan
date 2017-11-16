@@ -3,6 +3,6 @@ MAINTAINER lfchen
 
 COPY ./Server /src
 
-EXPOSE 8082
+EXPOSE 8085
 
 CMD ["node","/src/index.js"]
